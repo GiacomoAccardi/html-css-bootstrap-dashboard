@@ -34,7 +34,7 @@ SIDEBAR SECTION CLASSES
 @media screen and (min-width: 992px) {
     
     .side-bar{
-        width: 250px;
+        width: 150px;
     }
 
 }
@@ -50,13 +50,11 @@ MAIN SECTION CLASSES
 
 @media screen and (min-width:992px) {
     .site-content{
-        width: calc(100vw - 250px);
+        width: calc(100vw - 150px);
     }    
 }
 
 /*TOP MAIN SECTION*/
 
-.top-section{
 
-}
 
