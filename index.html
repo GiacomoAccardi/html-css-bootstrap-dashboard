@@ -23,8 +23,10 @@
     <header>
         <!--navbar-->
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Navbar</a>
+            <div class="container-fluid bg-body">
+              <div class="navbar-brand">
+                <img src="./img/logo.svg" alt="logo-bol">
+              </div>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -36,20 +38,28 @@
 
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="#">
+                      <i class="fa-solid fa-bars"></i>
+                    </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
+                    <a class="nav-link" href="#">
+                      <i class="fa-solid fa-circle-question"></i>
                     </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                      <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </a>
+                  </li>
+                  <li class="nav-item dropdown mt-1">
+                    <i class="fa-solid fa-bell nav-link text-warning" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Profilo</a></li>
                       <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Logout</a></li>
                     </ul>
                   </li>
                 </ul>
@@ -59,11 +69,47 @@
     </header>
     
     <main>
-        <div class="side-bar">
+        <div class="side-bar text-white py-4 text-center">
             <!--side-bar-->
+            <div class="container">
+
+              <div class="row">
+                <div class="col12">
+                  <div class="content">
+
+                    <div>
+                      <i class="fa-solid fa-house"></i>
+                      <span class="d-none d-lg-inline">Home</span>
+                    </div>
+                    <div class="mt-3">
+                      <i class="fa-solid fa-house"></i>
+                      <span class="d-none d-lg-inline">Home</span>
+                    </div>
+                    <div class="mt-3">
+                      <i class="fa-solid fa-house"></i>
+                      <span class="d-none d-lg-inline">Home</span>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="col12">
+                  <div class="content">
+
+                    <div class="mt-3">
+                      <i class="fa-solid fa-house"></i>
+                      <span class="d-none d-lg-inline">Home</span>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
         </div>
 
         <div class="site-content bg-light">
+
             <!--site section with all the elements-->
             <div class="top-section bg-primary text-white">
                 <div class="container">
@@ -90,6 +136,7 @@
               <div class="row">
                 <div class="col-sm-12 col-xl-8">
                   <div class="content">
+
                     <!--PROSSIME CLASSI CARD-->
                     <div class="card">
                       <div class="card-header">
@@ -149,6 +196,7 @@
                 <div class="col-sm-12 col-xl-4">
                   <div class="content">
 
+                    <!--TO DO CARD-->
                     <div class="card">
                       <div class="card-header">
                         <H5>Todo</H5>
@@ -157,12 +205,14 @@
                       </div>
                     </div>
                     
+                    <!--GRAPHIC-->
                     <div class="card mt-3">
                       <div class="card-body">
                       </div>
                     </div>
                   </div>
                 </div>
+
               </div>
             </div>
         </div>
