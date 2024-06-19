@@ -43,6 +43,20 @@ SIDEBAR SECTION CLASSES
 MAIN SECTION CLASSES 
 ************/
 
-.nuovo-studente {
-    background-color: rgb(34, 112, 255);
+.site-content{
+    width: calc(100vw - 75px);
+    height: calc(100vh - 54px);
 }
+
+@media screen and (min-width:992px) {
+    .site-content{
+        width: calc(100vw - 250px);
+    }    
+}
+
+/*TOP MAIN SECTION*/
+
+.top-section{
+
+}
+
