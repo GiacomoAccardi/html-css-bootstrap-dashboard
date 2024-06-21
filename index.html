@@ -136,8 +136,8 @@
                             <thead>
                               <tr>
                                 <th scope="col" colspan="3">Nome</th>
-                                <th scope="col">Data inizio</th>
-                                <th scope="col">ROI</th>
+                                <th scope="col" class="disappear">Data inizio</th>
+                                <th scope="col" class="disappear">ROI</th>
                                 <th scope="col">Stato</th>
                                 <th scope="col">Azioni</th>
                               </tr>
@@ -150,8 +150,8 @@
                                   </span>
                                 </th>
                                 <td colspan="2">Classe 75</td>
-                                <td>15 Feb 2021</td>
-                                <td>20%</td>
+                                <td class="disappear">15 Feb 2021</td>
+                                <td class="disappear">20%</td>
                                 <td>
                                   <span class="labl-tag bg-success">Done</span>
                                 </td>
@@ -172,8 +172,8 @@
                                   </span>
                                 </th>
                                 <td colspan="2">Classe 76</td>
-                                <td>16 Feb 2021</td>
-                                <td>20%</td>
+                                <td class="disappear">16 Feb 2021</td>
+                                <td class="disappear">20%</td>
                                 <td>
                                   <span class="labl-tag bg-success">Done</span>
                                 </td>
@@ -194,8 +194,8 @@
                                   </span>
                                 </th>
                                 <td colspan="2">Classe 77</td>
-                                <td>17 Feb 2021</td>
-                                <td>20%</td>
+                                <td class="disappear">17 Feb 2021</td>
+                                <td class="disappear">20%</td>
                                 <td>
                                   <span class="labl-tag bg-warning">process</span>
                                 </td>
@@ -216,8 +216,8 @@
                                   </span>
                                 </th>
                                 <td colspan="2">Classe 78</td>
-                                <td>18 Feb 2021</td>
-                                <td>20%</td>
+                                <td class="disappear">18 Feb 2021</td>
+                                <td class="disappear">20%</td>
                                 <td>
                                   <span class="labl-tag bg-danger">failed</span>
                                 </td>
@@ -238,8 +238,8 @@
                                   </span>
                                 </th>
                                 <td colspan="2">Classe 79</td>
-                                <td>19 Feb 2021</td>
-                                <td>20%</td>
+                                <td class="disappear">19 Feb 2021</td>
+                                <td class="disappear">20%</td>
                                 <td>
                                   <span class="labl-tag bg-success">Done</span>
                                 </td>
@@ -260,8 +260,8 @@
                                   </span>
                                 </th>
                                 <td colspan="2">Classe 80</td>
-                                <td>20 Feb 2021</td>
-                                <td>20%</td>
+                                <td class="disappear">20 Feb 2021</td>
+                                <td class="disappear">20%</td>
                                 <td>
                                   <span class="labl-tag bg-warning">process</span>
                                 </td>
@@ -387,11 +387,97 @@
     <div class="col-12 col-lg-4"></div>
       <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
           <div class="offcanvas-header">
-            <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+            <h5 id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
-          <div class="offcanvas-body">
-            ...
+
+
+          <div class="offcanvas-body py-3 px-2">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-sm-12 col-md-6">
+                  <div class="mb-2">Nome</div>
+                  <div class="input-group mb-2">
+                    <input type="text" class="form-control" aria-label="Username">
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                  <div class="mb-2">Cognome</div>
+                  <div class="input-group mb-2">
+                    <input type="text" class="form-control" aria-label="Username">
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                  <div class="mb-2">Email</div>
+                  <div class="input-group mb-2">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1">@</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                  <div class="mb-2">Password</div>
+                  <div class="input-group mb-2">
+                    <input type="text" class="form-control" aria-label="Username">
+                  </div>
+                </div>
+
+                <div class="col-12">
+                  <div class="mb-2">Indirizzo</div>
+                  <div class="input-group mb-2">
+                    <input type="text" class="form-control" aria-label="Username">
+                  </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6">
+                  <div class="mb-2">Città</div>
+                  <div class="input-group mb-2">
+                    <input type="text" class="form-control" aria-label="Username">
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                  <div class="mb-2">Stato</div>
+                  <div class="input-group mb-2">
+                    <div class="input-group">
+                      <input type="text" class="form-control" aria-label="Text input with dropdown button">
+                      <div class="input-group-append">
+                        <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-2">
+                  <div class="mb-2">Cap</div>
+                  <div class="input-group mb-2">
+                    <input type="text" class="form-control" aria-label="Username">
+                  </div>
+                </div>
+
+                <div class="col-12">
+                  <div class="mb-2">Foto</div>
+                  <div class="input-group mb-2">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1">Scegli foto</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Nessun file selezionato" aria-label="Username" aria-describedby="basic-addon1">
+                  </div>
+                </div>
+
+                <div class="col-12 mt-3">
+                  <input type="checkbox" aria-label="Checkbox for following text input">
+                  <span>Seleziona per proseguire</span>
+                </div>
+
+                <div class="col-12">
+                  <div class="mt-3">
+                    <button type="button" class="btn btn-primary">Salva</button>
+                    <button type="button" class="btn btn-warning">Svuota</button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
           </div>
       </div>
     </div>
