@@ -56,6 +56,13 @@ NAVBAR SECTION CLASSES
     flex-grow: 2;
 }
 
+form:hover i{
+    display: none;
+}
+
+.navbar input{
+    background-color: rgb(209, 209, 209) !important;
+}
 
 /****************
 SIDEBAR SECTION CLASSES 
