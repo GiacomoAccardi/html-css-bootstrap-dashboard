@@ -140,4 +140,17 @@ MAIN SECTION CLASSES
 }
 
 
+/****************
+OFFCANVAS CLASSES 
+************/
 
+.offcanvas {
+    width: 100% !important;
+}
+
+
+@media screen and (min-width: 1200px) {
+    .offcanvas {
+        width: 400px !important;
+    }
+}
